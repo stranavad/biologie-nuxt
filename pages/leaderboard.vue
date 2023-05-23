@@ -1,7 +1,7 @@
 <template>
     <div class="flex justify-between mb-5">
         <span class="text-xl font-semibold dark:text-gray-200 text-gray-800">Leaderboards</span>
-        <NuxtLink to="/game" class="text-xl font-semibold dark:text-gray-200 text-gray-800">Back to game</NuxtLink>
+        <NuxtLink to="/game" class="text-lg font-semibold dark:text-gray-200 text-gray-800">Back to game</NuxtLink>
     </div>
     <div class="flex flex-col gap-2">
         <div v-for="score, index in scores" class="flex justify-between dark:text-gray-400 text-gray-700">
