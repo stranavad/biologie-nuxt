@@ -1,0 +1,1008 @@
+{
+  "plants": [
+    {
+      "name": "ŠÁCHOLAN (Magnolia)",
+      "image": "sacholan.png"
+    },
+    {
+      "name": "LILIOVNÍK TULIPÁNOKVĚTÝ (Lyriodendron tulipifera)",
+      "image": "liliovnik_tulipanokvety.png"
+    },
+    {
+      "name": "PODRAŽEC OBECNÝ (Aristolochia clematitis)",
+      "image": "podrazec_obecny.png"
+    },
+    {
+      "name": "KOPYTNÍK EVROPSKÝ (Asarum europaeum)",
+      "image": "kopytnik_evropsky.png"
+    },
+    {
+      "name": "RAFLÉZIE ARNOLDOVA (Raflesia arnoldi)",
+      "image": "raflezie_arnoldova.png"
+    },
+    {
+      "name": "LEKNÍN BÍLÝ (Nymphaea alba)",
+      "image": "leknin_bily.png"
+    },
+    {
+      "name": "STULÍK ŽLUTÝ (Nuphar lutea)",
+      "image": "stulik_zluty.png"
+    },
+    {
+      "name": "VIKTORIE KRÁLOVSKÁ (Victoria regia)",
+      "image": "viktorie_kralovska.png"
+    },
+    {
+      "name": "LOTOS OŘECHONOSNÝ (Nelumbium speciosum)",
+      "image": "lotos_orechonosny.png"
+    },
+    {
+      "name": "TALOVÍN ZIMNÍ (Eranthis hyemalis)",
+      "image": "talovin_zimni.png"
+    },
+    {
+      "name": "BLATOUCH BAHENNÍ (Caltha palustris)",
+      "image": "blatouch_bahenni.png"
+    },
+    {
+      "name": "ÚPOLÍN EVROPSKÝ (Trollius europaeus)",
+      "image": "upolin_evropsky.png"
+    },
+    {
+      "name": "OMĚJ ŠALAMOUNEK (Aconitum napellus)",
+      "image": "omej_salamounek.png"
+    },
+    {
+      "name": "PRYSKYŘNÍK PRUDKÝ (Ranunculus acris)",
+      "image": "pryskyrnik_prudky.png"
+    },
+    {
+      "name": "ORSEJ JARNÍ (Ficaria verna)",
+      "image": "orsej_jarni.png"
+    },
+    {
+      "name": "SASANKA HAJNÍ (Anemone nemorosa)",
+      "image": "sasanka_hajni.png"
+    },
+    {
+      "name": "JATERNÍK PODLÉŠKA (Hepatica nobilis)",
+      "image": "jaternik_podleska.png"
+    },
+    {
+      "name": "KONIKLEC LUČNÍ (Pulsatilla pratensis)",
+      "image": "koniklec_lucni.png"
+    },
+    {
+      "name": "HLAVÁČEK LETNÍ (Adonis aestivalis)",
+      "image": "hlavacek_letni.png"
+    },
+    {
+      "name": "PLAMÉNEK PLOTNÍ (Clematis vitalba)",
+      "image": "plamenek_plotni.png"
+    },
+    {
+      "name": "DŘÍŠŤÁL OBECNÝ (Berberis vulgaris)",
+      "image": "dristal_obecny.png"
+    },
+    {
+      "name": "MAHÓNIE CESMÍNOLISTÁ (Mahonia aquifolium)",
+      "image": "mahonie_cesminolista.png"
+    },
+    {
+      "name": "MÁK SETÝ (Papaver somniferum)",
+      "image": "mak_sety.png"
+    },
+    {
+      "name": "MÁK VLČÍ (Papaver rhoeas)",
+      "image": "mak_vlci.png"
+    },
+    {
+      "name": "VLAŠTOVIČNÍK VĚTŠÍ (Chelidonium majus)",
+      "image": "vlastovicnik_vetsi.png"
+    },
+    {
+      "name": "DYMNIVKA DUTÁ (Corydalis cava)",
+      "image": "dymnivka_duta.png"
+    },
+    {
+      "name": "LÁČKOVKA (Nepenthes)",
+      "image": "lackovka.png"
+    },
+    {
+      "name": "ŠPIRLICE (Sarracenia)",
+      "image": "spirlice.png"
+    },
+    {
+      "name": "ROSNATKA (Drosera)",
+      "image": "rosnatka.png"
+    },
+    {
+      "name": "MUCHOLAPKA PODIVNÁ (Dionaea muscipula)",
+      "image": "mucholapka_podivna.png"
+    },
+    {
+      "name": "PLATAN ZÁPADNÍ (Platanus occidentalis)",
+      "image": "platan_zapadni.png"
+    },
+    {
+      "name": "JILM VAZ (Ulmus laevis)",
+      "image": "jilm_vaz.png"
+    },
+    {
+      "name": "CHMEL OTÁČIVÝ (Humulus lupulus)",
+      "image": "chmel_otacivy.png"
+    },
+    {
+      "name": "KONOPĚ SETÁ (Canabis sativa)",
+      "image": "konope_seta.png"
+    },
+    {
+      "name": "KOPŘIVA DVOUDOMÁ (Urtica dioica)",
+      "image": "kopriva_dvoudoma.png"
+    },
+    {
+      "name": "BUK LESNÍ (Fagus sylvatica)",
+      "image": "buk_lesni.png"
+    },
+    {
+      "name": "DUBNÍ ZIMNÍ (Quercus petraea)",
+      "image": "dub_zimni.png"
+    },
+    {
+      "name": "DUB LETNÍ (Quercus robur)",
+      "image": "dub_letni.png"
+    },
+    {
+      "name": "KAŠTANOVNÍK JEDLÝ (Castanea sativa)",
+      "image": "kastanovnik_jedly.png"
+    },
+    {
+      "name": "BŘÍZA BRADAVIČNATÁ (Betula pendula)",
+      "image": "briza_bradavicnata.png"
+    },
+    {
+      "name": "OLŠE LEPKAVÁ (Alnus glutinosa)",
+      "image": "olse_lepkava.png"
+    },
+    {
+      "name": "HABR OBECNÝ (Carpinus betulus)",
+      "image": "habr_obecny.png"
+    },
+    {
+      "name": "LÍSKA OBECNÁ (Corylus avellana)",
+      "image": "liska_obecna.png"
+    },
+    {
+      "name": "OŘEŠÁK KRÁLOVSKÝ (Juglans regia)",
+      "image": "oresak_kralovsky.png"
+    },
+    {
+      "name": "VRBA JÍVA (Salix caprea)",
+      "image": "vrba_jiva.png"
+    },
+    {
+      "name": "VRBA BÍLÁ (Salix alba)",
+      "image": "VRBA BÍLÁ (Salix alba)"
+    },
+    {
+      "name": "TOPOL OSIKA (Populus tremula)",
+      "image": "topol_osika.png"
+    },
+    {
+      "name": "TOPOL BÍLÝ (Populus alba)",
+      "image": "topol_bily.png"
+    },
+    {
+      "name": "TOPOL ČERNÝ (Populus nigra)",
+      "image": "topol_cerny.png"
+    },
+    {
+      "name": "KOUKOL LUČNÍ (Agrostemma githago)",
+      "image": "koukol_lucni.png"
+    },
+    {
+      "name": "KOHOUTEK LUČNÍ (Lychnis flos-cuculi)",
+      "image": "kohoutek_lucni.png"
+    },
+    {
+      "name": "SILENKA NADMUTÁ (Silene vulgaris)",
+      "image": "silenka_nadmuta.png"
+    },
+    {
+      "name": "HVOZDÍK KARTOUZEK (Dianthus carthusianorum)",
+      "image": "hvozdik_kartouzek.png"
+    },
+    {
+      "name": "ŠŤOVÍK KYSELÝ (Rumex acetosa)",
+      "image": "stovik_kysely.png"
+    },
+    {
+      "name": "REVEŇ REBARBORA (Rheum rhabarbarum)",
+      "image": "reven_rebarbora.png"
+    },
+    {
+      "name": "RDESNO (Polygonum sp.)",
+      "image": "rdnesno.png"
+    },
+    {
+      "name": "KŘÍDLATKA JAPONSKÁ (Reynoutria japonica)",
+      "image": "kridlatka_japonska.png"
+    },
+    {
+      "name": "TŘEZALKA TEČKOVANÁ (Hypericum perforatum)",
+      "image": "trezalka_teckovana.png"
+    },
+    {
+      "name": "VIOLKA ROLNÍ (Viola arvensis)",
+      "image": "violka_rolni.png"
+    },
+    {
+      "name": "VIOLKA VONNÁ (Viola odorata)",
+      "image": "violka_vonna.png"
+    },
+    {
+      "name": "MUČENKA (Passiflora)",
+      "image": "mucenka.png"
+    },
+    {
+      "name": "TYKVICE STŘÍKAVÁ (Ecballium elaterium)",
+      "image": "tykvice_strikava.png"
+    },
+    {
+      "name": "VŘES OBECNÝ (Calluna vulgaris)",
+      "image": "vres_obecny.png"
+    },
+    {
+      "name": "BRUSNICE BORŮVKA (Vaccinium myrtillus)",
+      "image": "brusnice_boruvka.png"
+    },
+    {
+      "name": "BRUSNICE BRUSINKA (Vaccinium vitis-idaea)",
+      "image": "brusnice_brusinka.png"
+    },
+    {
+      "name": "HNILÁK SMRKOVÝ (Monotropa hypopitys)",
+      "image": "hnilak_smrkovy.png"
+    },
+    {
+      "name": "MĚSÍČNICE ROČNÍ (Lunaria annua)",
+      "image": "mesicnice_rolni.png"
+    },
+    {
+      "name": "BRUKEV ŘEPKA (Brassica napus)",
+      "image": "brukev_repka.png"
+    },
+    {
+      "name": "HOŘČICE SETÁ (Leucosinapis alba)",
+      "image": "horcice_seta.png"
+    },
+    {
+      "name": "KOKOŠKA PASTUŠÍ TOBOLKA (Capsella bursa-pastoris)",
+      "image": "kokoska_pastusi_tobolka.png"
+    },
+    {
+      "name": "PENÍZEK ROLNÍ (Thlaspi arvense)",
+      "image": "penizek_rolni.png"
+    },
+    {
+      "name": "PRVOSENKA JARNÍ (Primula veris)",
+      "image": "provsenka_jarni.png"
+    },
+    {
+      "name": "DŘÍPATKA HORSKÁ (Soldanella montana)",
+      "image": "dripatka_horska.png"
+    },
+    {
+      "name": "BRAMBOŘÍK NACHOVÝ (Cyclamen purpurascens)",
+      "image": "bramborik_nachovy.png"
+    },
+    {
+      "name": "BAVLNÍK (Gossypium)",
+      "image": "bavlnik.png"
+    },
+    {
+      "name": "BAOBAB (Adansonia)",
+      "image": "baobab.png"
+    },
+    {
+      "name": "DURIAN CIBETKOVÝ (Durio zibethinus)",
+      "image": "durian_cibetkovy.png"
+    },
+    {
+      "name": "LÍPA SRDČITÁ (Tilia cordata)",
+      "image": "lipa_srdcita.png"
+    },
+    {
+      "name": "PRYŠEC CHVOJKA (Euphorbia cyparissias)",
+      "image": "prysec_chvojka.png"
+    },
+    {
+      "name": "Euphorbia",
+      "image": "euphorbia.png"
+    },
+    {
+      "name": "TAVOLNÍK (Spiraea)",
+      "image": "tavolnik.png"
+    },
+    {
+      "name": "MOCHNA HUSÍ (Potentilla anserina)",
+      "image": "mochna_husi.png"
+    },
+    {
+      "name": "JAHODNÍK OBECNÝ (Fragaria vesca)",
+      "image": "jahodnik_obecny.png"
+    },
+    {
+      "name": "JAHODNÍK ANANASOVÝ (Fragaria ananassa)",
+      "image": "jahodnik_ananasovy.png"
+    },
+    {
+      "name": "ŘEPÍK LÉKAŘSKÝ (Agrimonia eupatoria)",
+      "image": "repik_lekarsky.png"
+    },
+    {
+      "name": "KRVAVEC TOTEN (Sanguisorba officinalis)",
+      "image": "krvavec_toten.png"
+    },
+    {
+      "name": "KONTRYHEL OBECNÝ (Alchemilla vulgaris)",
+      "image": "kontryhel_obecny.png"
+    },
+    {
+      "name": "RŮŽE ŠÍPKOVÁ (Rosa canina)",
+      "image": "ruze_sipkova.png"
+    },
+    {
+      "name": "OSTRUŽINÍK KŘOVITÝ (Rubus fruticosus)",
+      "image": "ostruznik_krovity.png"
+    },
+    {
+      "name": "OSTRUŽINÍK MALINÍK (Rubus idaeus)",
+      "image": "ostruznik_malinik.png"
+    },
+    {
+      "name": "OSTRUŽINÍK MORUŠKA (Rubus chamaemorus)",
+      "image": "ostruznik_moruska.png"
+    },
+    {
+      "name": "SLIVOŇ TRNKA (Prunus spinosa)",
+      "image": "slivon_trnka.png"
+    },
+    {
+      "name": "SLIVOŇ TŘEŠEŇ (Cerasus avium)",
+      "image": "slivon_tresen.png"
+    },
+    {
+      "name": "SLIVOŇ VIŠEŇ (Cerasus vulgaris)",
+      "image": "slivon_visen.png"
+    },
+    {
+      "name": "SLIVOŇ ŠVESTKA (Prunus domestica)",
+      "image": "slivon_svetska.png"
+    },
+    {
+      "name": "SAKURA (Prunus serrulata)",
+      "image": "sakura.png"
+    },
+    {
+      "name": "MERUŇKA OBECNÁ (Prunus armeniaca)",
+      "image": "merunka_obecna.png"
+    },
+    {
+      "name": "BROSKVOŇ PERSKÁ (Prunus persica)",
+      "image": "broskvon_perska.png"
+    },
+    {
+      "name": "JABLOŇ DOMÁCÍ (Malus domestica)",
+      "image": "jablon_domaci.png"
+    },
+    {
+      "name": "HRUŠEŇ OBECNÁ (Pyrus communis)",
+      "image": "hrusen_obecna.png"
+    },
+    {
+      "name": "JEŘÁB OBECNÝ (Sorbus aucuparia)",
+      "image": "jerab_obecny.png"
+    },
+    {
+      "name": "HLOH OBECNÝ (Crataegus laevigata)",
+      "image": "hloh_obecny.png"
+    },
+    {
+      "name": "MERUZALKA RYBÍZ (Ribes rubrum)",
+      "image": "meruzalka_rybiz.png"
+    },
+    {
+      "name": "MERUZALKA ČERNÁ (Ribes nigrum)",
+      "image": "meruzalka_cerna.png"
+    },
+    {
+      "name": "SRSTKA OBECNÁ (Grossularia uva-crispa)",
+      "image": "srtska_obecna.png"
+    },
+    {
+      "name": "NETŘESK (Sempervivum)",
+      "image": "netresk.png"
+    },
+    {
+      "name": "ROZCHODNÍK (Sedum)",
+      "image": "rozchodnik.png"
+    },
+    {
+      "name": "TLUSTICE (Crassula)",
+      "image": "tlustice.png"
+    },
+    {
+      "name": "OLIVOVNÍK EVROPSKÝ (Olea europaea)",
+      "image": "olivovnik_evropsky.png"
+    },
+    {
+      "name": "ZLATICE PŘEVISLÁ (Forsythia suspensa)",
+      "image": "zlatice_previsla.png"
+    },
+    {
+      "name": "ŠEŘÍK OBECNÝ (Syringa vulgaris)",
+      "image": "serik_obecny.png"
+    },
+    {
+      "name": "PTAČÍ ZOB OBECNÝ (Ligustrum vulgare)",
+      "image": "ptaci_zob_obecny.png"
+    },
+    {
+      "name": "JASAN ZTEPILÝ (Fraxinus excelsior)",
+      "image": "jasan_ztepily.png"
+    },
+    {
+      "name": "VRBOVKA ÚZKOLISTÁ (Epilogium angustifolium)",
+      "image": "vrbovka_uzkolista.png"
+    },
+    {
+      "name": "PUPALKA DVOULETÁ (Oenothera biennis)",
+      "image": "pupalka_dvouleta.png"
+    },
+    {
+      "name": "BLAHOVIČNÍK (Eucalyptus)",
+      "image": "blahovicnik.png"
+    },
+    {
+      "name": "ŠŤAVEL KYSELÝ (Oxalis acetosella)",
+      "image": "stavel_kysely.png"
+    },
+    {
+      "name": "LEN SETÝ (Linum usitatissimum)",
+      "image": "len_sety.png"
+    },
+    {
+      "name": "KAKOST SMRDUTÝ (Geranium robertianum)",
+      "image": "kakost_smrduty.png"
+    },
+    {
+      "name": "NETÝKAVKA ŽLÁZNATÁ (Impatiens glandulifera)",
+      "image": "netykavka_zlaznata.png"
+    },
+    {
+      "name": "BRSLEN EVROPSKÝ (Euonymus europaea)",
+      "image": "brslen_evropsky.png"
+    },
+    {
+      "name": "CESMÍNA OSTROLISTÁ (Ilex aquifolium)",
+      "image": "cesmina_ostrolista.png"
+    },
+    {
+      "name": "RÉVA VINNÁ (Vitis vinifera)",
+      "image": "reva_vinna.png"
+    },
+    {
+      "name": "CITLIVKA STYDLIVÁ (Mimosa pudica)",
+      "image": "citlivka_stydliva.png"
+    },
+    {
+      "name": "VLČÍ BOB MNOHOLISTÝ (Lupinus polyphyllus)",
+      "image": "vlci_bob_mnoholisty.png"
+    },
+    {
+      "name": "ŠTĚDŘENEC ZLATÝ DÉŠŤ (Laburnum anagyroides)",
+      "image": "stedrenec_zlaty_dest.png"
+    },
+    {
+      "name": "TRNOVNÍK AKÁT (Robinia pseudacacia)",
+      "image": "trnovnik_akat.png"
+    },
+    {
+      "name": "PODZEMNICE OLEJNÁ (Arachis hypogaea)",
+      "image": "podzemnice_olejna.png"
+    },
+    {
+      "name": "JETEL LUČNÍ (Trifolium pratense)",
+      "image": "jetel_lucni.png"
+    },
+    {
+      "name": "JETEL PLAZIVÝ (Trifolium repens)",
+      "image": "jetel_plazivy.png"
+    },
+    {
+      "name": "TOLICE VOJTĚŠKA (Medicago sativa)",
+      "image": "tolice_vojteska.png"
+    },
+    {
+      "name": "HRÁCH SETÝ (Pisum sativum)",
+      "image": "hrach_sety.png"
+    },
+    {
+      "name": "VIKEV LESNÍ (Vicia sylvatica)",
+      "image": "vikev_lesni.png"
+    },
+    {
+      "name": "HRACHOR LESNÍ (Lathyrus sylvestris)",
+      "image": "hrachor_lesni.png"
+    },
+    {
+      "name": "ŠKUMPA OROBINCOVÁ (Rhus hirta)",
+      "image": "skumpa_orobincova.png"
+    },
+    {
+      "name": "JAVOR BABYKA (Acer campestre)",
+      "image": "javor_babyka.png"
+    },
+    {
+      "name": "JAVOR MLÉČ (Acer platanoides)",
+      "image": "javor_mlec.png"
+    },
+    {
+      "name": "JAVOR KLEN (Acer pseudoplatanus)",
+      "image": "javor_klen.png"
+    },
+    {
+      "name": "JAVOR CUKROVÝ (Acer saccharinum)",
+      "image": "javor_cukrovy.png"
+    },
+    {
+      "name": "JÍROVEC MAĎAL (Aesculus hippocastanum)",
+      "image": "jirovec_madal.png"
+    },
+    {
+      "name": "JMELÍ BÍLÉ (Viscum album)",
+      "image": "jmeli_bile.png"
+    },
+    {
+      "name": "OCHMET EVROPSKÝ (Loranthus europaeus)",
+      "image": "ochmet_evropsky.png"
+    },
+    {
+      "name": "HOŘEC TOLITOVÝ (Gentiana asclepiadea)",
+      "image": "horec_tolitovy.png"
+    },
+    {
+      "name": "OLEANDR (Nerium oleander)",
+      "image": "oleandr.png"
+    },
+    {
+      "name": "KÁVOVNÍK ARABSKÝ (Coffea arabica)",
+      "image": "kavovnik_arabsky.png"
+    },
+    {
+      "name": "MAŘINKA VONNÁ - SVÍZEL VONNÝ (Asperula odorata)",
+      "image": "marinka_vonna_svizel_vonny.png"
+    },
+    {
+      "name": "SVÍZEL PŘÍTULA (Galium aparine)",
+      "image": "svizel_pritula.png"
+    },
+    {
+      "name": "DIVIZNA VELKOKVĚTÁ (Verbascum densiflorum)",
+      "image": "divizna_velkokveta.png"
+    },
+    {
+      "name": "ROZRAZIL REZEKVÍTEK (Veronica chamaedris)",
+      "image": "rozrazil_rezekvitek.png"
+    },
+    {
+      "name": "ČERNÝŠ (Melampyrum)",
+      "image": "cernys.png"
+    },
+    {
+      "name": "SVĚTLÍK (Euphrasia)",
+      "image": "svetlik.png"
+    },
+    {
+      "name": "KOKRHEL (Rhinanthus)",
+      "image": "kokrhel.png"
+    },
+    {
+      "name": "PODBÍLEK ŠUPINATÝ (Lathraea squamaria)",
+      "image": "podbilek_supinaty.png"
+    },
+    {
+      "name": "NÁPRSTNÍK VELKOKVĚTÝ (Digitalis grandiflora)",
+      "image": "naprstnik_velkokvety.png"
+    },
+    {
+      "name": "KATALPA TRUBAČOVITÁ (Catalpa bignonioides)",
+      "image": "katalpa_trubacovita.png"
+    },
+    {
+      "name": "ZÁRAZA BÍLÁ (Orobanche alba)",
+      "image": "zaraza_bila.png"
+    },
+    {
+      "name": "HLUCHAVKA BÍLÁ (Lamium album)",
+      "image": "hluchavka_bila.png"
+    },
+    {
+      "name": "MATEŘÍDOUŠKA VEJČITÁ (Thymus pulegioides)",
+      "image": "materidouska_vejcita.png"
+    },
+    {
+      "name": "LEVANDULE ÚZKOLISTÁ (Lavandula angustifolia)",
+      "image": "levandule_uzkolista.png"
+    },
+    {
+      "name": "BŘEČŤAN POPÍNAVÝ (Hedera helix)",
+      "image": "brectan_popinavy.png"
+    },
+    {
+      "name": "BRŠLICE KOZÍ NOHA (Aegopodium podagraria)",
+      "image": "brslice_kozi_noha.png"
+    },
+    {
+      "name": "BOLŠEVNÍK VELKOLEPÝ (Heracleum mantegazzianum)",
+      "image": "bolsevnik_velkolepy.png"
+    },
+    {
+      "name": "MRKEV OBECNÁ (Daucus carota)",
+      "image": "mrkev_obecny.png"
+    },
+    {
+      "name": "PETRŽEL ZAHRADNÍ (Petroselium crispum)",
+      "image": "petrzel_zahradni.png"
+    },
+    {
+      "name": "KOPR ZAHRADNÍ (Anetum graveolens)",
+      "image": "kopr_zahradni.png"
+    },
+    {
+      "name": "BEZ ČERNÝ (Sambucus nigra)",
+      "image": "bez_cerny.png"
+    },
+    {
+      "name": "PÁMELNÍK POTOČNÍ (Symphoricarpos albus)",
+      "image": "pamelnik_potocni.png"
+    },
+    {
+      "name": "ZIMOLEZ TATARSKÝ (Lonicera tatarica)",
+      "image": "zimolez_tatarsky.png"
+    },
+    {
+      "name": "ŠTĚTKA LESNÍ (Dipsacus sylvestris)",
+      "image": "stetka_lesni.png"
+    },
+    {
+      "name": "SVLAČEC ROLNÍ (Convolvulus arvensis)",
+      "image": "svlacec_rolni.png"
+    },
+    {
+      "name": "KOKOTICE EVROPSKÁ (Cuscuta europaea)",
+      "image": "kokotice_evropska.png"
+    },
+    {
+      "name": "KOSTIVAL LÉKAŘSKÝ (Symphytum officinale)",
+      "image": "kostival_lekarsky.png"
+    },
+    {
+      "name": "PLICNÍK LÉKAŘSKÝ (Pulmonaria officinalis)",
+      "image": "plicnik_lekarsky.png"
+    },
+    {
+      "name": "HADINEC OBECNÝ (Echium vulgare)",
+      "image": "hadinec_obecny.png"
+    },
+    {
+      "name": "POMNĚNKA BAHENNÍ (Myosotis palustris)",
+      "image": "pomnenka_bahenni.png"
+    },
+    {
+      "name": "LILEK BRAMBOR (Solanum tuberosum)",
+      "image": "lilek_brambor.png"
+    },
+    {
+      "name": "RAJČE JEDLÉ (Lycopersicum esculentum)",
+      "image": "rajce_ledle.png"
+    },
+    {
+      "name": "PAPRIKA ROČNÍ (Capsicum annuum)",
+      "image": "paprika_rocni.png"
+    },
+    {
+      "name": "LILEK ČERNÝ (Solanum nigrum)",
+      "image": "lilek_cerny.png"
+    },
+    {
+      "name": "TABÁK VIRGINSKÝ (Nicotiana tabacum)",
+      "image": "tabak_virginsky.png"
+    },
+    {
+      "name": "RULÍK ZLOMOCNÝ (Atropa bella-dona)",
+      "image": "rulik_zlomocny.png"
+    },
+    {
+      "name": "DURMAN PANENSKÁ OKURKA (Datura stramonium)",
+      "image": "durman_panenska_okurka.png"
+    },
+    {
+      "name": "MOCHYNĚ ŽIDOVSKÁ TŘEŠEŇ (Physalis alkekengi)",
+      "image": "mochyne_zidovska_tresen.png"
+    },
+    {
+      "name": "JITROCEL KOPINATÝ (Plantago lanceolata)",
+      "image": "jitrocel_kopinaty.png"
+    },
+    {
+      "name": "JITROCEL VĚTŠÍ (Plantago major)",
+      "image": "jitrocel_vetsi.png"
+    },
+    {
+      "name": "ZVONEK BROSKVOLISTÝ (Campanula persicifolia)",
+      "image": "znovek_broskvolisty.png"
+    },
+    {
+      "name": "ČEKANKA OBECNÁ (Cichorium intybus)",
+      "image": "cekanka_obecna.png"
+    },
+    {
+      "name": "LOCIKA KOMPASOVÁ (Lactuca serriola)",
+      "image": "locika_kompasova.png"
+    },
+    {
+      "name": "SMETÁNKA LÉKAŘSKÁ - PAMPELIŠKA (Taraxacum officinale)",
+      "image": "smetanka_lekarska.png"
+    },
+    {
+      "name": "JESTŘÁBNÍK CHLUPÁČEK (Hieracium pilosella)",
+      "image": "jestrabnik_chlupacek.png"
+    },
+    {
+      "name": "MLÉČ ROLNÍ (Sonchus arvensis)",
+      "image": "mlec_rolni.png"
+    },
+    {
+      "name": "SLUNEČNICE ROČNÍ (Helianthus annuus)",
+      "image": "slunecnice_rolni.png"
+    },
+    {
+      "name": "SLUNEČNICE TOPINAMBUR (Helianthus tuberosus)",
+      "image": "slunecnice_topinambur.png"
+    },
+    {
+      "name": "KOPRETINA BÍLÁ (Leucanthemum vulgare)",
+      "image": "kopretina_bila.png"
+    },
+    {
+      "name": "VRATIČ OBECNÝ (Tanacetum vulgare)",
+      "image": "vratic_obecny.png"
+    },
+    {
+      "name": "PELYNĚK ČERNOBÝL (Artemisia vulgaris)",
+      "image": "pelynek_cernobyl.png"
+    },
+    {
+      "name": "HEŘMÁNEK PRAVÝ (Matricaria recutita)",
+      "image": "hermanek_pravy.png"
+    },
+    {
+      "name": "SEDMIKRÁSKA CHUDOBKA (Bellis perennis)",
+      "image": "sedmikraska_chudobka.png"
+    },
+    {
+      "name": "PROTĚŽ ALPSKÁ (Leontopodium alpinum)",
+      "image": "protez_alpska.png"
+    },
+    {
+      "name": "STARČEK HAJNÍ (Senecio nemorensis)",
+      "image": "starcek_hajni.png"
+    },
+    {
+      "name": "ZLATOBÝL KANADSKÝ (Solidago canadensis)",
+      "image": "zlatobyl_kanadsky.png"
+    },
+    {
+      "name": "MĚSÍČEK LÉKAŘSKÝ (Calendulla officinalis)",
+      "image": "mesicek_lekarsky.png"
+    },
+    {
+      "name": "BĚLOTRN KULATOHLAVÝ (Echinops sphaerocephalus)",
+      "image": "belotrn_kulatohlavy.png"
+    },
+    {
+      "name": "LOPUCH PAVUČINATÝ (Arctium tomentosum)",
+      "image": "lopuch_pavucinaty.png"
+    },
+    {
+      "name": "DEVĚTSIL LÉKAŘSKÝ (Petasites hybridus)",
+      "image": "devetsil_lekarsky.png"
+    },
+    {
+      "name": "PODBĚL OBECNÝ (Tussilago farfara)",
+      "image": "podbel_obecny.png"
+    },
+    {
+      "name": "ŘEBŘÍČEK OBECNÝ (Achillea millefolium)",
+      "image": "rebricek_obecny.png"
+    },
+    {
+      "name": "BODLÁK NÍCÍ (Carduus nutans)",
+      "image": "bodlak_nici.png"
+    },
+    {
+      "name": "PCHÁČ OSET (Cirsium arvense)",
+      "image": "pchac_oset.png"
+    },
+    {
+      "name": "CHRPA LUČNÍ (Centaurea jacea)",
+      "image": "chrpa_lucni.png"
+    },
+    {
+      "name": "CHRPA MODRÁK (Centaurea cyanus)",
+      "image": "chrpa_modrak.png"
+    },
+    {
+      "name": "PUPAVA BEZLODYŽNÁ (Carlina acaulis)",
+      "image": "pupava_bezlodyzna.png"
+    },
+    {
+      "name": "LILIE ZLATOHLAVÁ (Lilium martagon)",
+      "image": "lilie_zlatohlava.png"
+    },
+    {
+      "name": "LILIE BÍLÁ (Lilium candidum)",
+      "image": "lilie_bila.png"
+    },
+    {
+      "name": "TULIPÁN ZAHRADNÍ (Tulipa gesnerana)",
+      "image": "tulipan_zahradni.png"
+    },
+    {
+      "name": "KANDÍK PSÍ ZUB (Erythronium dens-canis)",
+      "image": "kandik_psi_zub.png"
+    },
+    {
+      "name": "MODŘENEC ÚZKOLISTÝ (Muscari tenuiflorum)",
+      "image": "modrenec_uzkolisty.png"
+    },
+    {
+      "name": "KONVALINKA VONNÁ (Convallaria majalis)",
+      "image": "vranni_oko_ctyrliste.png"
+    },
+    {
+      "name": "OCÚN JESENNÍ (Colchicum autumnale)",
+      "image": "ocun_jesenni.png"
+    },
+    {
+      "name": "SNĚŽENKA PODSNĚŽNÍK (Galanthus nivalis)",
+      "image": "snezenka_podsneznik.png"
+    },
+    {
+      "name": "BLEDULE JARNÍ (Leucojum vernum)",
+      "image": "bledule_jarni.png"
+    },
+    {
+      "name": "NARCIS ŽLUTÝ (Narcissus pseudonarcissus)",
+      "image": "narcis_zluty.png"
+    },
+    {
+      "name": "AGÁVE SISALOVÁ (Agave sisalana)",
+      "image": "agave_sisalova.png"
+    },
+    {
+      "name": "ALOE (Aloë)",
+      "image": "aloe.png"
+    },
+    {
+      "name": "ŠAFRÁN (Crocus)",
+      "image": "safran.png"
+    },
+    {
+      "name": "KOSATEC (Iris)",
+      "image": "kosatec.png"
+    },
+    {
+      "name": "VODNÍ MOR KANADSKÝ (Elodea canadensis)",
+      "image": "vodni_mor_kanadsky.png"
+    },
+    {
+      "name": "STŘEVÍČNÍK PANTOFLÍČEK (Cypripedium calceolus)",
+      "image": "strevnicek_pantoflicek.png"
+    },
+    {
+      "name": "VSTAVAČ NACHOVÝ (Orchis purpurea)",
+      "image": "vstavac_nachovy.png"
+    },
+    {
+      "name": "VANILOVNÍK PLOCHOLISTÝ (Vanilla planifolia)",
+      "image": "vanilovnik_plocholisty.png"
+    },
+    {
+      "name": "PUŠKVOREC OBECNÝ (Acorus calamus)",
+      "image": "puskvorec_obecny.png"
+    },
+    {
+      "name": "ÁRÓN PLAMATÝ (Arum maculatum)",
+      "image": "aron_plamaty.png"
+    },
+    {
+      "name": "ĎÁBLÍK BAHENNÍ (Calla palustris)",
+      "image": "dablik_bahenni.png"
+    },
+    {
+      "name": "OKŘEHEK MENŠÍ (Lemna minor)",
+      "image": "okrehek_mensi.png"
+    },
+    {
+      "name": "PŠENICE OBECNÁ (Triticum aestivum)",
+      "image": "psenice_obecna.png"
+    },
+    {
+      "name": "ŽITO (Secale cereale)",
+      "image": "zito.png"
+    },
+    {
+      "name": "JEČMEN SETÝ (Hordeum vulgare)",
+      "image": "jecmen_sety.png"
+    },
+    {
+      "name": "OVES SETÝ (Avena sativa)",
+      "image": "oves_sety.png"
+    },
+    {
+      "name": "LIPNICE LUČNÍ (Poa pratensis)",
+      "image": "lipnice_lucni.png"
+    },
+    {
+      "name": "PSINEČEK (Agrostis)",
+      "image": "psinecek.png"
+    },
+    {
+      "name": "KOSTŘAVA (Festuca)",
+      "image": "kostrava.png"
+    },
+    {
+      "name": "BOJÍNEK LUČNÍ (Phleum pratense)",
+      "image": "bojinek_lucni.png"
+    },
+    {
+      "name": "SRHA LALOČNATÁ (Dactylis glomerata)",
+      "image": "srha_lalocnata.png"
+    },
+    {
+      "name": "JÍLEK VYTRVALÝ (Lolium perenne)",
+      "image": "jilek_vytrvaly.png"
+    },
+    {
+      "name": "RÁKOS OBECNÝ (Phragmites australis)",
+      "image": "rakos_obecny.png"
+    },
+    {
+      "name": "KUKUŘICE SETÁ (Zea mays)",
+      "image": "kukurice-seta.png"
+    },
+    {
+      "name": "BAMBUS",
+      "image": "bambus.png"
+    },
+    {
+      "name": "ŠÁCHOR PAPYRUS (Cyperus papyrus)",
+      "image": "sachor_papyrus.png"
+    },
+    {
+      "name": "OROBINEC (Typha)",
+      "image": "orobinec.png"
+    },
+    {
+      "name": "PALMA SEYCHELSKÁ (Lodoicea maldivica)",
+      "image": "palma_seychelska.png"
+    },
+    {
+      "name": "RAVENALA OZDOBNÁ (Ravenala madagascariensis)",
+      "image": "ravenala_ozdobna.png"
+    }
+  ]
+}
