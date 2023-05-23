@@ -23,6 +23,7 @@ definePageMeta({
 
 const { data: scores } = await useAsyncData('scores', async () => {
     const {data} = await client.from('score').select('score, name, user_id').order('score', {ascending: false});
+    
     return data;
 })
 </script>
