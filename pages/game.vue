@@ -102,7 +102,7 @@ created();
         <span class="text-lg font-semibold dark:text-gray-300 text-gray-800">Skore: <span class="text-2xl">{{score}}</span></span>
     </div>
     <div v-if="currentPlant" class="my-2">
-        <nuxt-img :src="getImageUrl(currentPlant.image)" quality="50" alt="Plant" style="aspect-ratio: 576/392;" class="w-full object-contain"/>
+        <nuxt-img :src="getImageUrl(currentPlant.image)" quality="50" style="aspect-ratio: 576/392;" class="w-full object-contain"/>
     </div>
     <div class="flex flex-col">
         <button
