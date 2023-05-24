@@ -30,6 +30,7 @@ export default defineEventHandler(async(event) => {
         wrong
     } = data.data;
 
+    // Wrong can be negative
     const score = correct ? 10 : Math.abs(wrong) * -2;
 
     const {data: dbData}: {data: {score: number}} = await client.from('score').select('score').eq('user_id', userId).single();
