@@ -5,4 +5,9 @@ export default defineNuxtConfig({
         '@nuxt/image-edge',
         '@nuxtjs/supabase'
     ],
+    plugins: [
+        {
+            src: '~/plugins/vercel.ts', mode: 'client'
+        }
+    ]
 })
