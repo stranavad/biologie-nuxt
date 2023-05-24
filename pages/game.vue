@@ -18,10 +18,18 @@ const currentPlant = ref<Plant | null>(null);
 const answers = ref<Answer[]>([]);
 const score = ref(0);
 
-async function updateScore(value: number){
-  score.value = value;
+async function updateScore(wrong: number){
+  const response = await fetch('/api/score', {
+    method: 'PUT',
+    body: JSON.stringify({
+      correct: !wrong,
+      wrong
+    })
+  });
 
-  const { data } = await client.from('score').update({score: value}).eq('user_id', user.value!.id).select();
+  const responseData = await response.json();
+
+  score.value = responseData
 }
 
 async function answerPlant(answer: Answer){
@@ -30,15 +38,8 @@ async function answerPlant(answer: Answer){
 
     // Wrong answer count
     const wrongAnswers = answers.value.filter(({wrong}) => wrong).length;
-    let scoreDelta = 10;
 
-    if(wrongAnswers){
-      scoreDelta = -2 * wrongAnswers
-    }
-
-    if(score.value + scoreDelta > 0){
-      await updateScore(score.value + scoreDelta)
-    }
+    await updateScore(wrongAnswers);
 
     getNextPlant();
     return;
