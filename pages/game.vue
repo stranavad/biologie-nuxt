@@ -8,9 +8,6 @@ definePageMeta({
   middleware: 'auth'
 })
 
-const user = useSupabaseUser();
-const client = useSupabaseClient();
-
 const data: Plant[] = jsonData.plants;
 
 const nextImage = ref<string | null>(null);
@@ -83,14 +80,13 @@ function created(){
 }
 
 onMounted(async () => {
-    const {data} = await client.from('score').select('score').eq('user_id', user.value!.id);
+    const response = await fetch('/api/score', {
+      method: 'POST',
+    });
 
-    if(!data?.length){
-      await client.from('score').insert({'user_id': user.value!.id, score: 0, name: user.value!.user_metadata.full_name})
-    } else {
-      score.value = data[0].score || 0;
-    }
+    const responseData = await response.json();
 
+    score.value = responseData;
 })
 
 created();
