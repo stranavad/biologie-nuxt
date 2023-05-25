@@ -43,7 +43,7 @@ export default defineEventHandler(async(event) => {
     const {data: results} = await client.from('answers').select('id, correct, created_at').order('created_at', {ascending: false}).eq('user_id', userId);
 
     // If there is less then 100 results, we simply add a new one
-    if(results.length >= 8){
+    if(results.length >= 50){
         // We have to delete the last one
         const lastId = results[results.length - 1].id;
 
