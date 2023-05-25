@@ -19,7 +19,6 @@ async function updateScore(wrong: number){
   const response = await fetch('/api/score', {
     method: 'PUT',
     body: JSON.stringify({
-      correct: !wrong,
       wrong
     })
   });
@@ -63,6 +62,18 @@ function getImageUrl(image: string){
   return `/plants/${image}`
 }
 
+function created(){
+  getNextPlant(true);
+}
+
+onMounted(async () => {
+    const response = await fetch('/api/score', {
+      method: 'POST',
+    });
+
+  score.value = await response.json();
+})
+
 function getAnswerClass(answer: Answer){
   if(answer.wrong){
     return 'text-red-500 cursor-not-allowed dark:bg-red-900/50 bg-red-200/50 pointer-events-none';
@@ -74,20 +85,6 @@ function getAnswerClass(answer: Answer){
 
   return 'dark:text-gray-300 text-gray-700 dark:bg-gray-800 bg-gray-300 hover:opacity-70 '
 }
-
-function created(){
-  getNextPlant(true);
-}
-
-onMounted(async () => {
-    const response = await fetch('/api/score', {
-      method: 'POST',
-    });
-
-    const responseData = await response.json();
-
-    score.value = responseData;
-})
 
 created();
 </script>
