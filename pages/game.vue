@@ -2,7 +2,7 @@
 import jsonData from '~/data/data.json';
 import {Answer, Plant} from "~/types";
 import {ref} from "vue";
-import {getRandomElements, shuffle} from "~/utils";
+import {getRandomElements, shuffle, getImageUrl} from "~/utils";
 
 definePageMeta({
   middleware: 'auth'
@@ -58,9 +58,6 @@ function getNextPlant (firstPlant:boolean=false){
     answers.value = newAnswers
   }, firstPlant ? 0 : 750);
 }
-function getImageUrl(image: string){
-  return `/plants/${image}`
-}
 
 function created(){
   getNextPlant(true);
@@ -91,8 +88,11 @@ created();
 
 <template>
     <nuxt-img v-if="nextImage" quality="50" :src="getImageUrl(nextImage)" style="display: none"/>
-    <div class="flex justify-between mb-2">
-        <NuxtLink to="/leaderboard" class="text-lg font-semibold dark:text-gray-300 text-gray-800">Leaderboard</NuxtLink>
+    <div class="flex justify-between items-center mb-2">
+        <div class="flex gap-4">
+          <NuxtLink to="/leaderboard" class="text-lg font-semibold dark:text-gray-300 text-gray-800">Kdo vede?</NuxtLink>
+          <NuxtLink to="/list" class="text-lg font-semibold dark:text-gray-300 text-gray-800">Kyticky</NuxtLink>
+        </div>
         <span class="text-lg font-semibold dark:text-gray-300 text-gray-800">Skore: <span class="text-2xl">{{score}}</span></span>
     </div>
     <div v-if="currentPlant" class="my-2">

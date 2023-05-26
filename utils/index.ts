@@ -25,3 +25,7 @@ export function getRandomElements<T extends any[]>(array: T, n: number): T {
 
 	return result as T;
 }
+
+export function getImageUrl(image: string){
+	return `/plants/${image}`
+}

@@ -1,7 +1,20 @@
 <template>
-    <div class="flex justify-between mb-5">
-        <span class="text-xl font-semibold dark:text-gray-200 text-gray-800">Leaderboards</span>
-        <NuxtLink to="/game" class="text-lg font-semibold dark:text-gray-200 text-gray-800">Back to game</NuxtLink>
+    <div class="flex justify-between text-lg font-semibold dark:text-gray-200 text-gray-800 mb-4">
+        <span>
+            Kdo vede?
+        </span>
+        <div class="flex gap-4">
+            <NuxtLink
+                to="/game"
+            >
+                Hra
+            </NuxtLink>
+            <NuxtLink
+                to="/list"
+            >
+                Kyticky
+            </NuxtLink>
+        </div>
     </div>
     <div class="flex flex-col gap-2">
         <div
