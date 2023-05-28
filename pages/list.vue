@@ -57,13 +57,15 @@ import { Plant } from '~/types';
 
 const baseButtonClass = 'bg-cyan-700 py-0.5 px-2 border-gray-900 hover:opacity-70 transition-opacity duration-100 text-gray-300'
 
-const data: Plant[] = shuffle(jsonData.plants);
+// const data: Plant[] = jsonData.plants;
 
-const plants = ref<Plant[]>(data);
+const plants = ref<Plant[]>(jsonData.plants);
 const globalShow = ref(false);
 
 let searchTimeout: NodeJS.Timeout;
 function searchPlants(search: string){
+
+  console.log(search);
     if(globalShow.value){
         globalShow.value = false;
         nextTick(() => (globalShow.value = true));
@@ -74,7 +76,7 @@ function searchPlants(search: string){
     clearTimeout(searchTimeout);
     searchTimeout = setTimeout(() => {
         const lowercaseSearch = search.toLowerCase();
-        plants.value = data.filter(({name}) => name.toLowerCase().includes(lowercaseSearch))
+        plants.value = jsonData.plants.filter(({name}) => name.toLowerCase().includes(lowercaseSearch))
 
     }, 50);
 }

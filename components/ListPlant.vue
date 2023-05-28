@@ -4,6 +4,7 @@
     >
         <nuxt-img
             :src="`/plants/${plant.image}`"
+            :key="plant.image"
             quality="50"
             loading="lazy"
             style="aspect-ratio: 576/392;"
