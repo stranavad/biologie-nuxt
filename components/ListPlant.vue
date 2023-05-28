@@ -2,11 +2,11 @@
     <div
         class="flex flex-col"
     >
-        <img
-            :src="plantImage"
+        <nuxt-img
+            :src="`/plants/${plant.image}`"
+            quality="50"
             loading="lazy"
             style="aspect-ratio: 576/392;"
-            alt="Plant image"
         />
         <div class="py-6 h-full min-h-[30vh] flex items-start justify-center">
             <button
@@ -22,10 +22,8 @@
 import { Plant } from '~/types';
 
 const props = defineProps<{plant: Plant, globalShow: boolean}>();
+
 const show = ref(false);
-
-const plantImage = computed(() => `/_vercel/image?url=/plants/${props.plant.image}&w=1536&q=50`);
-
 
 watch(() => props.globalShow, (newValue) => {
     show.value = newValue
