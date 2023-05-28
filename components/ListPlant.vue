@@ -3,10 +3,10 @@
         class="flex flex-col"
     >
         <nuxt-img
-            :src="getImageUrl(plant.image)"
+            :src="`/plants/${plant.image}`"
             quality="50"
-            style="aspect-ratio: 576/392;"
             loading="lazy"
+            style="aspect-ratio: 576/392;"
         />
         <div class="py-6 h-full min-h-[30vh] flex items-start justify-center">
             <button
